@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="26" viewBox="0 0 78 26">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.525" x2="0.525" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#865ddd"/>
+      <stop offset="1" stop-color="#362658"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_87" data-name="Group 87" transform="translate(16505.078 845)">
+    <rect id="Register_rectangle" data-name="Register rectangle" width="78" height="26" rx="5" transform="translate(-16505.078 -845)" fill="url(#linear-gradient)"/>
+    <text id="Register" transform="translate(-16467.078 -826)" fill="#fff" font-size="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-32.739" y="0">REGISTER</tspan></text>
+  </g>
+</svg>

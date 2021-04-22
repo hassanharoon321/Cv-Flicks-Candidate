@@ -1,0 +1,112 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-register-parent {
+  height: 400px;
+  width: 250px;
+  /* background-color: rgb(255, 86, 86); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.modal-register-child-1 {
+  height: 40px;
+  width: 250px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-modal-heading-color {
+  color: var(--purple);
+  font-size: 32px;
+}
+
+.register-inputs-child-2 {
+  height: 180px;
+  width: 250px;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.register-modal-label {
+  margin-top: 20px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.register-modal-label-2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.username-input-register-modal {
+  border: 0;
+  border-bottom: 1px solid grey;
+  font-size: 12px;
+}
+
+.username-input-register-modal:focus {
+  outline: 0;
+}
+
+.forget-text-register {
+  font-size: 10px;
+  color: var(--purple);
+  cursor: pointer;
+}
+
+.register-terms-and-cond-div {
+  height: 40px;
+  width: 250px;
+  /* background-color: rgb(66, 238, 14); */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.register-text-terms {
+  font-size: 10px;
+  /* margin-left: 25px;
+    margin-right: 25px; */
+}
+
+.register-to-purple {
+  color: var(--purple);
+}
+
+.modal-register-candidate {
+  height: 50px;
+  width: 250px;
+  /* background-color: hotpink; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.modal-regsiter-candidate-btn {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: var(--yellow);
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}

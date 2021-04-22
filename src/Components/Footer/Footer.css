@@ -1,0 +1,132 @@
+/* ---------------------------------------------------- */
+
+/* Footer Work Starts Here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-home {
+  width: 100%;
+  background-color: #362658;
+}
+
+.footer-one-main {
+  width: 100%;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+
+.job-seekers-foot {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  /* padding-right: 30px; */
+  padding-bottom: 20px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.candidate {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.recruiters {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.download-app-follow {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.social-med-icons-foo {
+  display: flex;
+  margin-top: 12px;
+}
+
+.google-play-btn {
+  width: 150px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.app-store-btn {
+  margin-top: 10px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.follow-us-on {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Segoe UI";
+  font-weight: 900;
+}
+
+.instagram-icon {
+  margin-left: 30px;
+}
+
+.linked-in-icon {
+  margin-left: 28px;
+}
+
+.recr-top-main {
+  margin-top: 10px;
+}
+
+.location-recr-top {
+  margin-top: 35px;
+}
+
+
+.footer-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.horizontal-code{
+  width: 30%;
+  border: 1px thin #fff;
+  margin-top: 20px;
+}
+
+.footer-nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home-to-left-foot{
+  margin-left: 40px;
+}

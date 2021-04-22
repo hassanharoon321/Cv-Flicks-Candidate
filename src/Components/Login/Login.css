@@ -1,0 +1,166 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-login-parent {
+  height: 350px;
+  width: 250px;
+  /* background-color: rgb(8, 8, 8); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.modal-login-child-1 {
+  height: 40px;
+  width: 250px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-modal-heading-color {
+  color: var(--purple);
+  font-size: 32px;
+}
+
+.login-inputs-child-2 {
+  height: 135px;
+  width: 250px;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+}
+
+.login-modal-label {
+  margin-top: 20px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.login-modal-label-2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.username-input-login-modal {
+  border: 0;
+  border-bottom: 1px solid grey;
+  font-size: 12px;
+}
+
+.username-input-login-modal:focus {
+  outline: 0;
+}
+
+.forget-your-password {
+  height: 30px;
+  width: 250px;
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.forget-text-login {
+  font-size: 10px;
+  color: var(--purple);
+  cursor: pointer;
+}
+
+.modal-login-candidate {
+  height: 40px;
+  width: 250px;
+  /* background-color: hotpink; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.modal-login-candidate-btn {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: var(--yellow);
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal-login-candidate-btn:focus {
+  outline: 0;
+}
+
+.footer-modal-login {
+  height: 25px;
+  width: 250px;
+  /* background-color: indigo; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icons-of-modal-login {
+  height: 70px;
+  width: 250px;
+  /* background-color: lightslategrey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-icon-login-modal {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  border-radius: 10px;
+}
+
+.facebook-icon-login-modal {
+  background-color: transparent;
+  border: 0;
+  margin-left: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  border-radius: 10px;
+}
+
+.linkedin-icon-login-modal {
+  background-color: transparent;
+  border: 0;
+  margin-left: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  border-radius: 10px;
+}
+
+.footer-modal-login-last {
+  height: 20px;
+  width: 250px;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dont-have-an-account {
+  font-size: 14px;
+}
+.regis-here-modal-login {
+  color: var(--purple);
+  cursor: pointer;
+}

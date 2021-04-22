@@ -1,0 +1,215 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.job-detail-parent {
+  width: 100%;
+  height: 124vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(104, 186, 253); */
+}
+
+.hiring-heading {
+  width: 60%;
+  height: 15vh;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.hiring-one {
+  width: 80%;
+  height: 100%;
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.job-post-date {
+  width: 20%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-posted-date {
+  font-size: 12px;
+  color: var(--light-grey);
+}
+
+.haed-title-01 {
+  color: var(--grey);
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.light-grey-title-01 {
+  color: var(--light-grey);
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.job-des-detail-02 {
+  margin-top: 20px;
+  height: 60vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  border-radius: 10px;
+}
+
+.job-detail-icon-01 {
+  height: 20%;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  display: flex;
+}
+
+.icon-detail-01 {
+  height: 100%;
+  width: 25%;
+  /* background-color: turquoise; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-detail-02 {
+  height: 100%;
+  width: 25%;
+  /* background-color: rgb(134, 238, 228); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-detail-03 {
+  height: 100%;
+  width: 25%;
+  /* background-color: turquoise; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-detail-04 {
+  height: 100%;
+  width: 25%;
+  /* background-color: rgb(164, 248, 240); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-1-job-detail {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.jobs-desc-detail {
+  height: 80%;
+  width: 100%;
+  /* background-color: violet; */
+  padding-left: 30px;
+  padding-right: 10px;
+  color: var(--grey);
+}
+
+.li-tag-small-size {
+  font-size: 12px;
+}
+
+.job-des-det {
+  color: var(--grey);
+  padding-bottom: 5px;
+}
+
+.functional-area-div {
+  margin-top: 20px;
+  width: 60%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  border-radius: 10px;
+}
+
+.func-area-01 {
+  width: 100%;
+  height: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.func-area-02 {
+  width: 100%;
+  height: 50%;
+  /* background-color: rgb(235, 235, 164); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.func-area-head {
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.func-area-para {
+  font-size: 12px;
+  color: var(--light-grey);
+}
+
+.job-detail-btn-div {
+  width: 100%;
+  height: 20vh;
+  /* background-color: violet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-job-detail {
+    background-color: var(--yellow);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    width: 8%;
+    height: 25%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-job-detail:focus{
+    outline: 0;
+}
+
+.link-def-detail{
+  text-decoration: none;
+}

@@ -1,0 +1,181 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --lighter-grey: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 5px;
+  scrollbar-color: var(--lighter-grey) #fff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--lighter-grey);
+  border-radius: 20px;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+
+.jobs-parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: rgb(235, 22, 22); */
+}
+
+.jobs-image {
+  /* height: 40vh; */
+  width: 90%;
+  /* background-color: burlywood; */
+  border-bottom-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image-fixed-jobs {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Jobs BY Title Starts */
+
+.jobs-by-title-jobs {
+  /* height: 40vh; */
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  position: absolute;
+  top: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title-of-jobs-color-jobs {
+  color: var(--grey);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.jobs-title-row-parent-jobs {
+  width: 97%;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  /* flex-grow: 4; */
+}
+
+.jobs-title-row-1-jobs {
+  min-width: 200px;
+  font-size: 14px;
+  /* background-color: indigo; */
+  /* margin-left: 20px; */
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.change-brackets-color-jobs {
+  color: var(--grey);
+}
+
+/* Jobs BY Title Ends */
+
+/* ----------------------------------------------------------- */
+
+/* Jobs BY DESIGNATION Starts */
+
+.jobs-by-designation-jobs {
+  height: 40vh;
+  width: 81%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 250px;
+}
+
+.title-of-designation-color-jobs {
+  color: var(--grey);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.jobs-title-row-parent-designation {
+  width: 97%;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  /* flex-grow: 4; */
+}
+
+.jobs-title-row-1-designation-jobs {
+  min-width: 200px;
+  font-size: 14px;
+  /* background-color: indigo; */
+  /* margin-left: 20px; */
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.change-brackets-color-jobs {
+  color: var(--light-grey);
+}
+
+.jobs-by-title-head {
+  color: var(--grey);
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+/* Jobs BY DESIGNATION Ends */
+
+/* ---------------------------------------------------- */
+
+/* Jobs BY Title Starts */

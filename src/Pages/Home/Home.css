@@ -1,0 +1,345 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --lighter-grey: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 5px;
+  scrollbar-color: black var(--grey);
+}
+
+body {
+  background-color: #fff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+
+.home-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: rgb(235, 22, 22); */
+}
+
+.home-image {
+  /* height: 40vh; */
+  width: 90%;
+  /* background-color: burlywood; */
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img-back-home {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+/* Search Input Starts */
+
+.home-search-parent {
+  /* height: 12vh; */
+  width: 70%;
+  /* background-color: crimson; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.box-of-search-home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 45%;
+  width: 100%;
+  /* background-color: darkmagenta; */
+}
+
+.search-icon-home {
+  /* min-height: 100%; */
+  width: 5%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.search-icon-home-2 {
+  /* height: 100%; */
+  width: 5%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input-home {
+  height: 100%;
+  width: 40%;
+  border: 0;
+  font-size: 12px;
+}
+
+.search-input-home:focus {
+  outline: 0;
+}
+
+.submit-btn-home {
+  /* height: 100%; */
+  width: 10%;
+  background-color: var(--purple);
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn-home:focus {
+  outline: 0;
+}
+
+.search-for-avail-color-home {
+  color: #fff;
+  font-family: "SegoeUI";
+  font-weight: 900;
+}
+
+/* Search Inputs End */
+
+/* ---------------------------------------------------------------- */
+
+/* Jobs by Title Home */
+
+.jobs-by-title-home {
+  /* height: 40vh; */
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  position: absolute;
+  top: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title-of-jobs-color {
+  color: var(--grey);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "SegoeUI";
+  font-weight: 900;
+}
+
+.jobs-title-row-parent {
+  width: 97%;
+  height: 220px;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+
+
+.jobs-title-row-1 {
+  min-width: 200px;
+  font-size: 14px;
+  margin-top: 10px;
+  /* background-color: indigo; */
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.change-brackets-color {
+  color: var(--light-grey);
+}
+
+.sub-title-main {
+  color: var(--grey);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Jobs by Title end */
+
+/* -------------------------------------------------------------- */
+
+/* Recent jobs Starts */
+
+.recent-search {
+  width: 81%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 280px;
+}
+
+.show-jobs-title-main-div {
+  width: 97%;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 5px;
+  padding-right: 10px;
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+
+.show-jobs-title-row-1 {
+  /* margin-left: 15px; */
+  margin-right: 15px;
+  min-width: 200px;
+  font-size: 14px;
+  /* background-color: indigo; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.show-jobs-box-1 {
+  min-width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 4px 4px #f2f2f2;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.icon-with-loc-home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-top: 5px; */
+  margin-bottom: 5px;
+}
+
+.location-space-home {
+  margin-left: 5px;
+  color: #707070;
+}
+
+.main-head-jiobs {
+  margin-left: 5px;
+  color: #707070;
+  font-size: 15px;
+}
+
+.tech-color-home {
+  color: #c8c8c8;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.recent-head-color {
+  color: var(--grey);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family: "SegoeUI";
+  font-weight: 900;
+}
+
+/* Recent jobs Ends */
+
+/* ---------------------------------------------------- */
+
+/* Pic works Starts here */
+.image-of-banner-home {
+  margin-top: 50px;
+  height: 60vh;
+  width: 81%;
+  /* background-color: maroon; */
+  display: flex;
+}
+
+.banner-image-01 {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+/* Pic works Ends here */
+
+/* ---------------------------------------------------- */
+
+.def-home-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "SegoeUI";
+  font-weight: 900;
+}
+
+.def-home-manag {
+  text-decoration: none;
+  color: var(--grey);
+}
+
+/* mdeia quries */
+
+/* @media only screen and (max-width: 1920px) {
+  .box-of-search-home {
+    height: 4vh;
+  }
+} */

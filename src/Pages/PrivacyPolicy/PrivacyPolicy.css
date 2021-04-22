@@ -1,0 +1,33 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 5px;
+  scrollbar-color: black var(--grey);
+}
+
+.priv-pol-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 100px;
+  /* background-color: rgb(235, 22, 22); */
+}
+
+.priv-pol-head{
+    color: var(--purple);
+    font-size: 42px;
+    margin-bottom: 30px;
+}

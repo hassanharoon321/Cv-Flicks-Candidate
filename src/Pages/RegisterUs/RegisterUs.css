@@ -1,0 +1,140 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 5px;
+  scrollbar-color: black var(--grey);
+}
+
+body {
+  background-color: #fff;
+}
+
+.register-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: rgb(235, 22, 22); */
+}
+
+.register-form-main {
+  width: 50%;
+  /* background-color: #ffb44a; */
+  display: flex;
+}
+
+.left-regiter {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  padding-left: 30px;
+}
+
+.right-regiter {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: brown; */
+  padding-left: 30px;
+}
+
+.social-media-register {
+  display: flex;
+  /* margin-top: 20px; */
+}
+
+.reg-head {
+  font-family: "Segoe UI Semibold";
+  font-size: 42px;
+  color: var(--purple);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.reg-label {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: var(--grey);
+}
+
+.reg-label-one {
+  margin-bottom: 15px;
+  color: var(--grey);
+}
+
+.reg-input {
+  width: 100%;
+  border: 0;
+  color: var(--light-grey);
+  border-bottom: 1px solid #707070;
+  padding-bottom: 3px;
+  font-size: 12px;
+}
+
+.reg-input:focus {
+  outline: 0;
+}
+
+.single-input-all {
+  display: flex;
+  flex-direction: column;
+}
+
+.para-register {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--grey);
+}
+
+.term-color-reg {
+  color: var(--purple);
+  font-family: "Segoe UI Semibold";
+  text-decoration: underline;
+}
+
+.register-btn-main{
+    border: 0;
+    background-color: var(--yellow);
+    color: #fff;
+    font-family: "Segoe UI Semibold";
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.horizontal-ruler-reg{
+  width: 400px;
+  margin-top: 20px;
+}
+
+.login-here-modal-reg{
+  margin-top: 10px;
+  color: var(--grey);
+}
+
+.login-here-reg{
+  color: var(--purple);
+  font-family: "Segoe UI Semibold";
+}
+
+.default-btn-design-reg{
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  border-radius: 30px;
+  margin: 10px;
+}

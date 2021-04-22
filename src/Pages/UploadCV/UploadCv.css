@@ -1,0 +1,110 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --lighter-grey: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 5px;
+  scrollbar-color: black var(--grey);
+}
+
+.upload-cv-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: rgb(235, 22, 22); */
+}
+
+.upload-main-div {
+  margin-top: 50px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-your-cv-head {
+  color: var(--grey);
+  font-size: 30px;
+  margin-top: 20px;
+}
+.upload-your-cv-para {
+  font-size: 14px;
+  color: var(--light-grey);
+  margin-top: 10px;
+}
+
+.browse-file-upload-div {
+  width: 50%;
+  border: 1px dashed #865DDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.browse-file-upload-btn {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.browse-file-upload-btn:focus{
+    outline: 0;
+}
+
+.cloud-upload-img{
+    margin-right: 5px;
+}
+
+.sup-file-txt{
+    font-size: 10px;
+    color: var(--light-grey);
+    margin-right: 115px;
+}
+
+.some-space-upload{
+    margin-top: 10px;
+    color: var(--grey);
+}
+
+.video-sec-main-div{
+    margin-top: 20px;
+    width: 50%;
+    /* background-color: hotpink; */
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload-btn-cv{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--yellow);
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}

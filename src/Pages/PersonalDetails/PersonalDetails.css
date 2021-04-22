@@ -1,0 +1,212 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-details-parent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.per-det-sub-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  height: 80%;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+}
+
+.per-det-child-01 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 85%;
+  width: 100%;
+  /* background-color: hotpink; */
+}
+
+.per-det-child-02 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: indianred; */
+}
+
+.per-det-sub-child-01 {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(165, 54, 39); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.per-det-sub-child-02 {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(235, 19, 84); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.per-det-lang-label {
+  margin-left: 20px;
+}
+
+.per-det-nationality-label {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.per-det-lang-input {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.per-det-full-name-label {
+  margin-left: 20px;
+}
+
+.per-det-date-of-birth-label {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.full-name-input-per-det {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.per-det-parent-btn-div {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.per-det-male-btn {
+  background-color: #f9f6ff;
+  color: #707070;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  margin-left: 10px;
+}
+
+.per-det-female-btn {
+  background-color: #f9f6ff;
+  color: #707070;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-shadow: 0 0 2px 2px #f2f2f2;
+  margin-left: 10px;
+}
+
+.phone-num-div {
+  margin-left: 20px;
+  height: 7%;
+  /* background-color: lightcoral; */
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.phone-num-code-input-1 {
+  height: 100%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.phone-num-code-input-2 {
+  height: 100%;
+  margin-left: 5px;
+  width: 78%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.per-det-save-and-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: var(--yellow);
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.male-padding {
+  margin-left: 5px;
+}
+
+.male-cur {
+  cursor: pointer;
+}
+
+.female-radio-pers {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.female-lanle {
+  margin-left: 5px;
+}
+
+.per-det-color{
+  color: var(--purple);
+}

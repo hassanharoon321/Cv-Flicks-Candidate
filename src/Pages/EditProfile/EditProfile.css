@@ -1,0 +1,235 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --lighter-grey: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 5px;
+  scrollbar-color: black var(--grey);
+}
+
+.edit-profile-parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: rgb(235, 22, 22); */
+}
+
+.user-info-profile {
+  width: 80%;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.user-profile-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  border: 1px solid var(--grey);
+}
+
+.name-designation-test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.address-info {
+  display: flex;
+}
+
+.profile-name {
+  font-family: "SegoeUI";
+  color: #362658;
+}
+
+.profile-desig {
+  font-family: "SegoeUI";
+  color: var(--grey);
+  margin-bottom: 20px;
+}
+
+.profile-info-01 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.loc-icon-profile {
+  margin-right: 10px;
+}
+
+.loc-profile-01 {
+  font-family: "SegoeUI";
+  color: var(--grey);
+}
+
+.profile-info-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.profile-info-03 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 20px;
+}
+
+/* Section 1 Ends */
+
+/* ----------------------------------------------------- */
+
+/* Section 2 Starts */
+
+.section-profile-02 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.section-profile-02 > p {
+  font-family: "SegoeUI";
+  color: var(--grey);
+}
+
+/* ---------------------------------------------------- */
+
+/* Profile and Video Starts */
+
+.profile-and-video-main {
+  width: 80%;
+  display: flex;
+}
+
+.comp-profile-main {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.profile-completed-child-01 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.head-profile-five {
+  font-family: "SegoeUI";
+  color: var(--purple);
+}
+
+.per-prof-comp {
+  font-size: 14px;
+  font-family: "SegoeUI";
+}
+
+.update-today-prof {
+  font-size: 10px;
+  color: var(--grey);
+}
+
+progress {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+progress::-webkit-progress-bar {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+progress::-webkit-progress-value {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: red;
+}
+progress::-moz-progress-bar {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.profile-progress {
+  width: 100%;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.five-pend-action{
+    color: var(--grey);
+    font-family: "SegoeUI";
+}
+
+.pend-action-para{
+    font-size: 10px;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+
+.upload-cv-main{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.upload-cv-para{
+    font-family: "SegoeUI";
+    font-size: 14px;
+    color: var(--grey);
+    margin-bottom: 5px;
+}
+
+.upload-c-v-line{
+    font-size: 10px;
+    color: var(--grey);
+    margin-bottom: 5px;
+}
+
+.upload-cv-btn{
+    background-color: #F0EBFF;
+    border: 0.5 solid var(--purple);
+    color: var(--purple);
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 30%;
+}

@@ -1,0 +1,243 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.professional-detail-parent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.prof-det-head-color{
+    color: var(--purple);
+}
+
+/* Section Work start here */
+
+.prof-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  height: 80%;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #f2f2f2;
+}
+
+.prof-detail-parent-child-01 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 90%;
+  width: 100%;
+  /* background-color: hotpink; */
+}
+
+.prof-child-01 {
+  height: 100%;
+  width: 50%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.prof-child-02 {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(106, 168, 106); */
+  display: flex;
+  padding-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.current-industry-label {
+  margin-left: 20px;
+}
+
+.current-industruy-input {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.current-industruy-input:focus {
+  outline: 0;
+}
+
+.current-functional-area-label {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.current-functional-area {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.current-work-exp-label {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.current-work-exp-input {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.salary-per-anum-label {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.salary-per-anum-category {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.availibility-label {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.availibility-category {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 80%;
+  height: 7%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.currently-working-label {
+  margin-left: 20px;
+}
+
+.prof-det-radio-2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.prof-det-yes {
+  margin-left: 3px;
+}
+
+.prof-det-input-round {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.for-cur{
+  cursor: pointer;
+}
+
+.designation-or-title-label {
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.designation-input {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 80%;
+  height: 9%;
+  border: 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 5px;
+}
+
+.prof-detail-parent-child-02 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: indianred; */
+}
+
+.prof-det-save-and-cont {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: var(--yellow);
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* .btn-child-03{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+} */
+
+.child-div-main{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+}
+
+
+.hide{
+  visibility: hidden;
+}
+
+.unhide{
+  visibility: visible;
+}
